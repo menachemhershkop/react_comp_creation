@@ -1,0 +1,6 @@
+button{
+    width: min-content;
+    border-radius: 20%;
+    justify-self: center;
+    height: 5vh;
+}

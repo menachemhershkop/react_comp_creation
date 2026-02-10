@@ -1,6 +1,17 @@
-function Button(){
-    return (<button className="" onClick={console.log(123)
-    }>hello</button>
+import '../css/Button.css';
+
+function Button(props){
+    let color;
+    if (props.type == 'Friend') {
+        color = 'green'
+    }
+    if (props.type == 'Teacher') {
+        color = 'blue'
+    }
+    if (props.type == 'Student') {
+        color = 'Purple'
+    }
+    return (<button id='button' className="" style={{background: color}} >hello</button>
 )}
 
 export default Button;
