@@ -3,10 +3,15 @@
     justify-self: center;
     border-style: inherit;
     border-color: beige;
-    margin: 10em;
-    /* padding: 20em; */
+    margin: 5em;
+    /* padding: 2em; */
     box-shadow: inset;
     background: lightcyan;
+    
+}
+#ProfileCard:hover{
+    background: lightblue;
+    color: brown;
 }
 #ProfileCard h3{
     font-weight: bold;
@@ -18,4 +23,11 @@
     height: 10em;
     width: 200px;
     border-radius: 50%;
+}
+#info{
+    justify-self: center;
+}
+img:hover{
+    border-style: dashed;
+    border-color: blue;
 }

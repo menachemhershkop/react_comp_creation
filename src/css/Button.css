@@ -3,4 +3,11 @@ button{
     border-radius: 20%;
     justify-self: center;
     height: 5vh;
+    color: azure;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+button:hover{
+    opacity: 1;
+    background: #000;
 }

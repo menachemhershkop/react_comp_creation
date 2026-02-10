@@ -11,7 +11,7 @@ function Button(props){
     if (props.type == 'Student') {
         color = 'Purple'
     }
-    return (<button id='button' className="" style={{background: color}} >hello</button>
+    return (<button id='button' className="" style={{background: color}} >{props.type}</button>
 )}
 
 export default Button;
